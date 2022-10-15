@@ -356,7 +356,7 @@ if (OPENMP_FOUND)
 endif ()
 
 foreach(subtarget ${subtargets})
-  set_target_properties (${subtarget} PROPERTIES SOVERSION 3.6.9 VERSION 3)
+  set_target_properties (${subtarget} PROPERTIES SOVERSION 3.10 VERSION 3)
   install (TARGETS ${subtarget}
 	  RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 	  LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
